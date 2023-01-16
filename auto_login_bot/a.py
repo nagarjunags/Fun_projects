@@ -29,11 +29,12 @@ password = browser.find_element(By.NAME, 'password')  # css_selector path of the
 username.send_keys("Test")  #this will type the username and password
 password.send_keys("Hero@8055")
 #login_button = browser.find_element_by_xpath('//*[@id="loginbutton"]')
-login_button = browser.find_element(By.XPATH, '//*[@id="loginbutton"]')   #giving the xpath of the login button
+login_button = browser.find_element(By.XPATH, '//*[@id="loginbutton"]')
+#giving the xpath if the login button
 login_button.click()									#clicks the login button
 browser.close()     #closes the browser
 speak="\"connected to Alvas Internet\""
-cmd = "{0} {1}".format("espeak ", speak)   #sudo apt install espeak(works only on linux machines)
+cmd = "{0} {1}".format("espeak ", speak)# (sudo apt install qrencode)
 os.system(cmd)
 
 #browser=webdriver.Firefox()							#can open the browser for another session							

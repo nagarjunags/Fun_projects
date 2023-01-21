@@ -17,10 +17,7 @@ from time import sleep
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
-#url="
-# git
-#
-#url=https://www.google.com/search?q=git&sxsrf=AJOqlzWvXx5s-eUke_djiK8uwW9VHiwunQ%3A1674148064706&source=hp&ei=4HjJY8j6KNCiseMPjeGl2Ag&iflsig=AK50M_UAAAAAY8mG8L9LAK8y74zp2fHhsF77HMDyZ9qF&ved=0ahUKEwjI6sjFj9T8AhVQUWwGHY1wCYsQ4dUDCAg&uact=5&oq=git&gs_lcp=Cgdnd3Mtd2l6EAMyBAgjECcyBAgjECcyBAgjECcyEQguELEDEIMBEMcBENEDEJECMgQIABBDMgQIABBDMgoIABCxAxCDARBDMgoIABCxAxCDARBDMgoIABCxAxCDARBDMgQIABBDOgcIIxDqAhAnOhAILhCxAxCDARDHARDRAxBDOgUIABCRAjoHCAAQsQMQQ1DQClitDWDDDmgBcAB4AIABfogB7wKSAQMwLjOYAQCgAQGwAQo&sclient=gws-wiz
+
 url=input("enter the url:")
 kkey=""
 

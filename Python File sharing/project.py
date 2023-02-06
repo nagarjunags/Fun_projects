@@ -20,7 +20,7 @@ hostname = socket.gethostname()
 ip_address = socket.gethostbyname(hostname) #this gets the hostname and your device ip address
 
 s="Press the letter B to go to previous directory or Q to exit and H to Host"    
-print("\033[1m" + s + "\033[0m")
+print("\033[1m" + s + "\033[0m")  #This line of code is to print the stringns in bold format
 while True:
     print("your current working directory is :"+ os.getcwd())          #prionting the current working directory
     dir_list=os.listdir()
